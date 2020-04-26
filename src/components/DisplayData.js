@@ -109,7 +109,7 @@ const DisplayData = ({ weather, setStep, setError }) => {
           >
             <WiShowers size={50} color="#cc00cc" />
             {<br></br>}
-            You need an umbrella or a waterproof jacked!
+            You need an umbrella or a waterproof jacket!
             <BackBtn setStep={setStep} setError={setError} />
           </Box>
         </>

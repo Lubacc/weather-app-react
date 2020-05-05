@@ -13,6 +13,8 @@ import {
   WiWindy,
 } from 'weather-icons-react';
 
+//  Options to display when receiving particular string
+
 const DisplayData = ({ weather, setStep, setError }) => {
   switch (weather) {
     case 'clear sky':
